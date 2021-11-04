@@ -56,8 +56,14 @@ public class Calculator {
 	public double pAusUundI (double u, double i){
 		return u*i;
 	}
-
-
-
-	
+	//Feature 3
+	public double uAusRundI (double wiederstand, double strom){
+		return wiederstand*strom;
+	}
+	public double uAusPundI(double leistung, double strom){
+		return leistung/strom;
+	}
+	public double uAusPundR(double leistung, double strom){
+		return Math.sqrt(leistung*strom);
+	}
 }
