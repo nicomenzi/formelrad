@@ -20,6 +20,8 @@ public class Calculator {
 	}
 	
 	public double getLeistung() {
+
+
 		return leistung;
 	}
 	
@@ -49,7 +51,12 @@ public class Calculator {
 		 */
 	}
 	
-	/* Hier die Methoden mit den Formlen hinzufügen
+	/* Hier die Methoden mit den Formlen hinzufï¿½gen
 	 */
+	public double pAusUundI (double u, double i){
+		return u*i;
+	}
+
+
 	
 }
