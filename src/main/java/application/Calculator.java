@@ -53,9 +53,15 @@ public class Calculator {
 	
 	/* Hier die Methoden mit den Formlen hinzuf�gen
 	 */
-	public double pAusUundI (double u, double i){
-		return u*i;
+	public double pAusUundI (double spannung, double strom){
+		return spannung*strom;
 	}
+	public double pAusRundI (double widerstand,double strom){
+		return widerstand*(strom*strom);
+	}
+	public double pAusUundR (double spannung, double widerstand){return (spannung*spannung)*widerstand;
+	}
+
 
 
 
