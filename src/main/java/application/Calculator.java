@@ -49,10 +49,15 @@ public class Calculator {
 		/* Hier auf Grund der vorhanden Werte entscheiden
 		 * welche Methode unten aufgerufen werden muss.
 		 */
+
 	}
 	
 	/* Hier die Methoden mit den Formlen hinzuf�gen
 	 */
+
+
+
+
 	public double pAusUundI (double spannung, double strom){
 		return spannung*strom;
 	}
@@ -70,6 +75,27 @@ public class Calculator {
 	}
 	public double IausUundR(double spannung, double widerstand){
 		return (spannung/widerstand);
+	}
+
+	public double uAusRundI (double wiederstand, double strom){
+		return wiederstand*strom;
+	}
+	public double uAusPundI(double leistung, double strom){
+		return leistung/strom;
+	}
+	public double uAusPundR(double leistung, double wiederstand){
+		return Math.sqrt(leistung*wiederstand);
+	}
+
+	//Feature 5
+	public double rAusUundI(double spannung, double strom){
+		return spannung/strom;
+	}
+	public double rAusPundI(double leistung, double strom){
+		return leistung/strom*strom;
+	}
+	public double rAusUundP(double spannung, double leistung){
+		return spannung*spannung/leistung;
 	}
 
 
