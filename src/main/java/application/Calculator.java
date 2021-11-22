@@ -68,6 +68,16 @@ public class Calculator {
 		if (getSpannung() != 0 && getWiderstand() != 0){
 			IausUundR(getSpannung(), getWiderstand());
 		}
+		if (getWiderstand() != 0 && getStrom() != 0){
+			uAusRundI(getLeistung(),getStrom());
+		}
+		if (getLeistung() != 0 && getStrom() != 0){
+			uAusPundI(getLeistung(),getStrom());
+		}
+		if (getLeistung() != 0 && getWiderstand() != 0){
+			uAusPundR(getLeistung(), getWiderstand());
+		}
+
 
 
 
